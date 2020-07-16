@@ -42,6 +42,7 @@ body {
 	font-size: 16px;
 	line-height: 1.87;
 }
+
 /* header */
 .logo {
 	font-family: "Raleway", sans-serif;
@@ -79,6 +80,11 @@ body {
 .contact .link:focus {
 	color: var(--accent-color);
 }
+
+.site-nav .link.current {
+	color: var(--accent-color);
+}
+
 /* Hero */
 .hero {
 	background-color: #2f303a;
