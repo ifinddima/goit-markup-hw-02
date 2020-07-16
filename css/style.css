@@ -151,3 +151,38 @@ body {
 .site-footer .title-list {
 	color: var(--white-text-color);
 }
+/* ------------------------------------ Portfolio------------------- */
+.button-portfolio {
+	background-color: #f5f4fa;
+	color: var(--title-text-color);
+	font-weight: 500;
+	font-size: 16px;
+	line-height: 1.5;
+	text-align: center;
+}
+
+.button-portfolio:hover {
+	background-color: var(--accent-color);
+	color: var(--white-text-color);
+}
+
+.title-list-portfolio {
+	color: var(--title-text-color);
+	font-weight: 700;
+	font-size: 18px;
+	line-height: 2;
+	letter-spacing: 0.06em;
+}
+
+.title-description {
+	color: var(--primary-text-color);
+	font-size: 16px;
+	line-height: 1.87;
+}
+
+.portfolio-description {
+	background-color: rgba(33, 150, 243, 0.9);
+	color: var(--white-text-color);
+	font-size: 18px;
+	line-height: 1.55;
+}
